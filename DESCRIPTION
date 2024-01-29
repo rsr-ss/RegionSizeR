@@ -1,0 +1,40 @@
+Package: RegionSizeR
+Type: Package
+Title: A 'shiny' Application for Regional Sample Size Planning in MRCTs
+Version: 0.1.0
+Authors@R: 
+     c(person("Guannan", "Sun", role = c("aut")),
+     person("Xin", "Sun", role = c("aut")),
+     person("Huijuan", "Su", role = c("aut")),
+     person("Yuqin", "Liao", role = c("aut")),
+     person("Di", "Wei", role = c("aut")),
+     person("Hanqing", "Ma", role = c("aut")),
+     person("Xinyu", "Li", role = c("aut")),
+     person("Ran", "Fan", role = c("aut")),
+     person("Xiaowei", "Ren", email = "xiaowei.ren@bayer.com", role = c("aut")))
+Author: Guannan Sun[aut], Xin Sun[aut], Huijuan Su [aut], Yuqin Liao [aut], Di Wei [aut], Hanqing Ma [aut], Xinyu Li [aut], Ran Fan [aut], Xiaowei Ren[aut]
+Maintainer: RegionSizeR <regionsizer@bayer.com>
+Description: RegionSizeR is a Shiny application designed for planning the sample size for regions in a multi-regional clinical trial(MRCT), utilizing the preservation of treatment effect method outlined in ICH E17. This application supports various types of endpoints, including continuous, binary, and time-to-event, for superiority, non-inferiority, and MCP-Mod designs(Quan et al.(2010)<doi:10.1002/pst.380> Li et al.(2022) <DOI:10.1201/9781003109785> Yamaguchi et al.(2021) <DOI:10.1080/19466315.2020.1752298>). It also considers specific enrollment characteristics in the region of interest during the planning process.
+License: GPL-3
+Depends: R (>= 4.0.0)
+Imports: 
+    shiny,
+    htmltools,
+    shinydashboard,
+    plotly,
+    DT,
+    survival,
+    DoseFinding,
+    snowfall,
+    parallel,
+    tidyverse
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2024-01-03 12:59:19 UTC; GDBLV
+Suggests: 
+    testthat (>= 3.0.0),
+    processx,
+    pkgload,
+    shinytest2
+Config/testthat/edition: 3

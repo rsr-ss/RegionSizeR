@@ -1,0 +1,93 @@
+.simple-data-table table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.simple-data-table th {
+    border: 1px solid #d7d7d7;
+    //background-color: #367FA9;
+    padding: 2px 2px;
+}
+
+.simple-data-table td {
+    border: none;
+    padding: 0px 0px;
+}
+
+.simple-data-table td input {
+    border: 1px solid #d7d7d7;
+    display: inline-block;
+    padding: 2px 2px 2px 4px;
+    color: black;
+    width: 100%;
+}
+
+.simple-data-table td input:focus {
+    border: 1px solid #3498db;
+}
+
+.simple-data-table td input:disabled {
+    background-color: #509DC8;
+    color: white;
+}
+
+.simple-data-table button.remove-row {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 10px;
+    padding: 0;
+    height: 15px;
+    width: 15px;
+}
+
+.simple-data-table .highlighted-cell input {
+    background: #ED5565;
+    color: white;
+}
+
+.simple-data-table button.remove-row:hover {
+    background: #de5b49;
+    color: #fff;
+}
+
+.simple-data-table button.remove-row:focus {
+    background: #de5b49;
+    color: #fff;
+    outline: none;
+}
+
+.simple-data-table button.remove-row::-moz-focus-inner {
+    border: 0;
+}
+
+.simple-data-table button.add-row {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+    padding: 0px;
+}
+
+.simple-data-table button.add-row:hover {
+    background: #de5b49;
+    color: #fff;
+}
+
+.simple-data-table button.add-row:focus {
+    background: #de5b49;
+    color: #fff;
+    outline: none;
+}
+
+.simple-data-table button.add-row::-moz-focus-inner {
+    border: 0;
+}

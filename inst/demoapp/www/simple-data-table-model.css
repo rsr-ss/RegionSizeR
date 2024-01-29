@@ -1,0 +1,116 @@
+.simple-model-data-table table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.simple-model-data-table th {
+    border: 1px solid #d7d7d7;
+    background-color: #509DC8;
+    padding: 2px 2px;
+    color: white;
+    text-align: center;
+}
+
+.simple-model-data-table td {
+    border: none;
+    padding: 0px 0px;
+    height: 100%;
+}
+
+.simple-model-data-table td input {
+    border: 1px solid #d7d7d7;
+    display: inline-block;
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.simple-model-data-table td div {
+    border: 1px solid #d7d7d7;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 1px 2px;
+}
+
+.simple-model-data-table td select {
+    border: none;
+    color: black;
+    width: 100%;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.simple-model-data-table td b {
+    border: none;
+    display: inline-block;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.simple-model-data-table input:focus {
+    border: 1px solid #3498db;
+}
+
+.simple-model-data-table button.remove-row {
+    background: transparent;
+    color: #de5b49;
+    border: 1px solid #de5b49;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 15px;
+    padding: 0;
+    height: 22px;
+    width: 22px;
+}
+
+.simple-model-data-table .highlighted-cell input {
+    background: #ED5565;
+    color: white;
+}
+
+.simple-model-data-table button.remove-row:hover {
+    background: #de5b49;
+    color: #fff;
+}
+
+.simple-model-data-table button.remove-row:focus {
+    background: #de5b49;
+    color: #fff;
+    outline: none;
+}
+
+.simple-model-data-table button.remove-row::-moz-focus-inner {
+    border: 0;
+}
+
+.simple-model-data-table button.add-row {
+    background: transparent;
+    color: #de5b49;
+    border: 1px solid #de5b49;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+    font-size: 15px;
+    height: 22px;
+    width: 22px;
+    padding: 0px;
+}
+
+.simple-model-data-table button.add-row:hover {
+    background: #de5b49;
+    color: #fff;
+}
+
+.simple-model-data-table button.add-row:focus {
+    background: #de5b49;
+    color: #fff;
+    outline: none;
+}
+
+.simple-model-data-table button.add-row::-moz-focus-inner {
+    border: 0;
+}
