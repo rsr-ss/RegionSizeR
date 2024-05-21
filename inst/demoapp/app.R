@@ -810,7 +810,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_con_end_t_test" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_con_end_t_test" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -820,7 +820,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_con_end_t_test_refresh" type="button" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_con_end_t_test_download" type="button" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_con_end_t_test_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_con_end_t_test_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
@@ -907,7 +907,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_bin_end_chi_square" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_bin_end_chi_square" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -917,7 +917,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_bin_end_chi_square_refresh" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_bin_end_chi_square_download" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_bin_end_chi_square_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_bin_end_chi_square_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
@@ -1198,7 +1198,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_t2e_end_life_test" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_t2e_end_life_test" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -1208,7 +1208,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_t2e_end_life_test_refresh" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_t2e_end_life_test_download" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_t2e_end_life_test_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_t2e_end_life_test_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
@@ -1299,7 +1299,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_ni_con_end" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_ni_con_end" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -1309,7 +1309,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_ni_con_end_refresh" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_ni_con_end_download" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_ni_con_end_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_ni_con_end_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
@@ -1396,7 +1396,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_ni_bin_end" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_ni_bin_end" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -1406,7 +1406,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_ni_bin_end_refresh" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_ni_bin_end_download" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_ni_bin_end_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_ni_bin_end_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
@@ -1687,7 +1687,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_ni_t2e_end" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_ni_t2e_end" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -1697,7 +1697,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_ni_t2e_end_refresh" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_ni_t2e_end_download" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_ni_t2e_end_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_ni_t2e_end_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
@@ -1847,7 +1847,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_mcpmod_con_end" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_mcpmod_con_end" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -1857,7 +1857,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_mcpmod_con_end_refresh" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_mcpmod_con_end_download" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_mcpmod_con_end_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_mcpmod_con_end_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
@@ -1992,7 +1992,7 @@ ui <- fluidPage(
                      HTML(                                                    '<div class="row-sm uiKeyArea">'),
                      HTML(                                                        '<div class="col-auto">'),
                      HTML(                                                            '<pre>'),
-                     HTML(                                                                '<textarea id="ui_textarea_mcpmod_bin_end" class="form-control shiny-bound-input" rows="7" cols="80" readonly=true>'),
+                     HTML(                                                                '<textarea id="ui_textarea_mcpmod_bin_end" class="form-control " rows="7" cols="80" readonly=true>'),
                      HTML(                                                                '</textarea>'),
                      HTML(                                                            '</pre>'),
                      HTML(                                                        '</div>'), #col-auto
@@ -2002,7 +2002,7 @@ ui <- fluidPage(
                      HTML(                                                        '<div class="col-auto" style="text-align: center">'),
                      HTML(                                                            '<button id="ui_btn_mcpmod_bin_end_refresh" class="btn btn-primary">Refresh</button>'),
                      HTML(                                                            '<button id="ui_btn_mcpmod_bin_end_download" class="btn btn-primary">Download</button>'),
-                     HTML(                                                            '<button id="ui_btn_mcpmod_bin_end_run" type="button" class="btn btn-primary action-button shiny-bound-input uiCheckBtn">Run</button>'),
+                     HTML(                                                            '<button id="ui_btn_mcpmod_bin_end_run" type="button" class="btn btn-primary action-button  uiCheckBtn">Run</button>'),
                      HTML(                                                        '</div>'), #col-auto
                      HTML(                                                    '</div>'), #row-sm
                      HTML(                                                '</div>'), #tab-pane
