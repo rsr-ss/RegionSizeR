@@ -283,7 +283,7 @@ plotSim <- function(chinese_all_in = NULL,  #G
         res
       }
 
-      print(system.time(res = process(parallel = TRUE,cpus=ncpus)))
+      print(system.time({res = process(parallel = TRUE,cpus=ncpus)}))
       result_df<-data.frame(do.call(rbind,res))
     }
 
@@ -336,7 +336,7 @@ plotSim <- function(chinese_all_in = NULL,  #G
         res
       }
 
-      print(system.time(res = process(parallel = TRUE,cpus=ncpus)))
+      print(system.time({res = process(parallel = TRUE,cpus=ncpus)}))
       result_df<-data.frame(do.call(rbind,res))
     }
 
